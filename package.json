@@ -1,0 +1,26 @@
+{
+    "name"            : "ssbl"
+  , "description"     : "Super-simple blog loader. Load markdown formatted blog files from a folder as a handy data structure for rendering"
+  , "version"         : "0.0.0"
+  , "homepage"        : "https://github.com/rvagg/node-ssbl"
+  , "authors"         : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "keywords"        : [ "blog", "markdown" ]
+  , "main"            : "./ssbl.js"
+  , "repository"      : {
+        "type"            : "git"
+      , "url"             : "https://github.com/rvagg/node-ssbl.git"
+    }
+  , "dependencies" : {
+        "brucedown"       : "~0.0.1"
+    }
+  , "devDependencies" : {
+        "tape"            : "*"
+      , "mkfiletree"      : "*"
+    }
+  , "scripts": {
+        "test"            : "node ./test.js"
+    }
+  , "license"             : "MIT"
+}
