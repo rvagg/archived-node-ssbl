@@ -39,8 +39,8 @@ So... it turns out I'm not so great at this blogging thing and I haven't posted 
 And the following code:
 
 ```js
-const ssbl = require('./')
-ssbl('./example'), function (err, data) {
+const ssbl = require('ssbl')
+ssbl('./example', function (err, data) {
   if (err) throw err
   console.log(JSON.stringify(data, null, 2))
 })
