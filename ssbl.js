@@ -48,7 +48,7 @@ var processOne = function (content, callback) {
           contents[i] = data
           if (++r == contents.length && callback) {
             contents = contents.sort(function (c1, c2) {
-              return c1.spec.date < c2.spec.date
+              return c1.spec.date < c2.spec.date ? 1 : -1
             })
             callback(null, contents)
           }
