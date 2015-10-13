@@ -33,6 +33,7 @@ tape('sorted multi-file blog', function (t) {
     , {
           'a.md': '{\n"name":"foo1","date":"2013-01-02","title":"bar1"\n}\nThis\n\nis\n\ncontent 1'
         , 'b.md': '{\n"name":"foo2","date":"2012-01-02","title":"bar2"\n}\nThis\n\nis\n\ncontent 2'
+        , 'b2.md': '{\n"name":"foo2-1","date":"2012-01-02","title":"bar2-1","draft":true\n}\nThis\n\nis\n\ncontent 2 of a draft'
         , 'c.md': '{\n"name":"foo3","date":"2013-02-02","title":"bar3"\n}\nThis\n\nis\n\ncontent 3'
       }
     , function (err, dir) {

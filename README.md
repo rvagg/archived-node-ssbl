@@ -83,6 +83,8 @@ Only files ending in *.md* will be considered and only one level deep will be sc
 
 Currently your metadata must be valid JSON and have the opening `{` and `}` on separate lines by themselves. The only other restriction beyond that is that the metadata contain a `"date"` property because it's used for sorting. Generally you'd need at least an `"author"` and a `"title"` but it's totally up to you and will depend on how you need to present it. The JSON object will be placed in the `"spec"` property of each element of the returned array with the page contents below the metadata in the `"page"` property.
 
+If a post has metadata and a `"draft"` field is truthy then it will be excluded from the list of posts.
+
 ## Markdown
 
 The markdown is processed with [Brucedown](https://github.com/rvagg/node-brucedown) which used [Marked](https://github.com/chjj/marked) to parse the Markdown (in GFM by default) and [Pygments](http://pygments.org/) for syntax highlighting in exactly the same manner as GitHub.
