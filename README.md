@@ -91,4 +91,4 @@ The markdown is processed with [Brucedown](https://github.com/rvagg/node-brucedo
 
 ## Licence
 
-Super Simple Blog Loader for Node.js is Copyright (c) 2012 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+Super Simple Blog Loader for Node.js is Copyright (c) 2015 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
